@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWIDA - Premium Mobile App Development | Riwaq iOS App | Secure & Elegant Apps</title>
+    <meta name="description"
+        content="OWIDA creates premium, secure mobile applications for iOS and Android. Download Riwaq - the elegant diary and goal tracking app with complete privacy. No ads, no tracking, local storage only.">
+    <meta name="keywords"
+        content="mobile app development, iOS apps, Android apps, Riwaq app, diary app, goal tracking, secure apps, privacy-focused apps, OWIDA, premium applications, luxury apps, ad-free apps">
+    <meta name="author" content="OWIDA">
+    <meta property="og:title" content="OWIDA - Premium Mobile App Development">
+    <meta property="og:description" content="Creating elegant, secure mobile applications. Download Riwaq app for iOS.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/owida_logo.png">
+    <link rel="canonical" href="https://owida.com/">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Riwaq",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "150"
+        }
+    }
+    </script>
+</head>
+
+<body data-theme="light">
+
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo" aria-label="OWIDA Home">OWIDA</a>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="privacy.html" data-i18n="nav_privacy">Privacy Policy</a></li>
+                    <li><a href="support.html" data-i18n="nav_support">Support</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="controls">
+                <button id="btn-theme-toggle" class="btn-icon" aria-label="Toggle Dark Mode">
+                    <!-- Icon injected by JS -->
+                </button>
+                <button id="btn-lang-en" class="btn-icon" aria-label="Switch to English"
+                    style="font-size: 14px; font-weight: bold;">EN</button>
+                <button id="btn-lang-ar" class="btn-icon" aria-label="Switch to Arabic"
+                    style="font-size: 14px; font-weight: bold;">AR</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="home-hero fade-in">
+            <div class="container">
+                <div class="hero-badge">✨ Premium Mobile Apps</div>
+                <h1 data-i18n="hero_title">Riwaq - Organize Your Life</h1>
+                <p class="hero-description" data-i18n="hero_desc">We craft <strong>elegant iOS and Android
+                        applications</strong> that combine beautiful design with complete privacy. No data collection,
+                    no tracking, just pure functionality.</p>
+
+                <div class="hero-apps-grid">
+                    <div class="hero-app-showcase">
+                        <a href="riwaq.html" class="app-icon-link-home float-animation" aria-label="Explore Riwaq App">
+                            <img src="images/riwaq_icon.png" alt="Riwaq - Premium Diary and Goal Tracking iOS App">
+                            <div class="app-icon-glow"></div>
+                        </a>
+                        <div class="app-quick-info">
+                            <h2 data-i18n="app_riwaq_name">Riwaq App</h2>
+                            <p data-i18n="app_riwaq_tagline">Your elegant diary & goal tracker</p>
+                            <div class="app-stats">
+                                <span>⭐ 4.8/5</span>
+                                <span>📱 iOS</span>
+                                <span data-i18n="app_riwaq_price">💎 Free</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-app-showcase">
+                        <a href="mycircle.html" class="app-icon-link-home float-animation"
+                            aria-label="Explore MyCircle App" style="animation-delay: 0.5s;">
+                            <img src="images/mycircle_icon.png" alt="MyCircle - جمعيتي Rotating Savings App">
+                            <div class="app-icon-glow"
+                                style="background: radial-gradient(circle, rgba(102, 126, 234, 0.3) 0%, transparent 70%);">
+                            </div>
+                        </a>
+                        <div class="app-quick-info">
+                            <h2 data-i18n="app_mycircle_name">MyCircle App</h2>
+                            <p data-i18n="app_mycircle_tagline">Effortless Savings Circles</p>
+                            <div class="app-stats">
+                                <span data-i18n="status_free">💎 Free</span>
+                                <span>📱 iOS</span>
+                                <span data-i18n="status_free">💎 Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p data-i18n="text_click_icon" class="hero-cta-text">Click to explore our applications</p>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="home-features-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose OWIDA Apps?</h2>
+                <p class="section-subtitle">Premium mobile applications built with your privacy and experience in mind
+                </p>
+
+                <div class="home-features-grid">
+                    <div class="home-feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3 data-i18n="trust_security_title">100% Private & Secure</h3>
+                        <p data-i18n="trust_security_desc">Your data is encrypted and stored locally on your device. We
+                            never collect, share, or sell your information.</p>
+                    </div>
+
+                    <div class="home-feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="trust_design_title">Luxury Design</h3>
+                        <p data-i18n="trust_design_desc">Every pixel crafted with passion. Beautiful interfaces that
+                            make daily tasks a pleasure.</p>
+                    </div>
+
+                    <div class="home-feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3 data-i18n="trust_speed_title">Lightning Performance</h3>
+                        <p data-i18n="trust_speed_desc">Optimized for speed and efficiency. Smooth, responsive, and
+                            battery-friendly.</p>
+                    </div>
+
+                    <div class="home-feature-card">
+                        <div class="feature-icon">🚫</div>
+                        <h3>No Ads, No Tracking</h3>
+                        <p>Clean, distraction-free experience. No analytics, no third-party trackers, no hidden agendas.
+                        </p>
+                    </div>
+
+                    <div class="home-feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Bilingual Support</h3>
+                        <p>Full support for English and Arabic. Switch languages seamlessly within the app.</p>
+                    </div>
+
+                    <div class="home-feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>One-Time Purchase</h3>
+                        <p>No subscriptions, no hidden fees. Pay once, own forever. Fair and transparent pricing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Showcase Section -->
+        <section class="home-app-showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <div class="showcase-text">
+                        <span class="showcase-badge">Featured App</span>
+                        <h2>Riwaq - Your Digital Companion</h2>
+                        <p>A sophisticated <strong>diary and goal tracking application</strong> designed for iOS. Manage
+                            your daily notes, track personal goals, and organize small projects—all with complete
+                            privacy.</p>
+
+                        <ul class="showcase-features">
+                            <li>📝 <strong>Smart Diary</strong> - Organize thoughts by date and category</li>
+                            <li>🎯 <strong>Goal Tracking</strong> - Daily, weekly, and monthly goals</li>
+                            <li>📊 <strong>Project Management</strong> - Track income and expenses</li>
+                            <li>🌙 <strong>Dark Mode</strong> - Easy on the eyes, day or night</li>
+                        </ul>
+
+                        <a href="riwaq.html" class="btn-showcase">
+                            <span>Learn More About Riwaq</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="showcase-visual">
+                        <img src="images/riwaq_icon.png" alt="Riwaq App Icon - Premium Diary App">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MyCircle App Showcase Section -->
+        <section class="home-app-showcase" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+            <div class="container">
+                <div class="showcase-content">
+                    <div class="showcase-visual">
+                        <img src="images/mycircle_icon.png" alt="MyCircle - جمعيتي App Icon"
+                            style="border-radius: 25%; box-shadow: 0 20px 60px rgba(0,0,0,0.4);">
+                    </div>
+
+                    <div class="showcase-text">
+                        <span class="showcase-badge">تطبيق جديد - New App</span>
+                        <h2>MyCircle - جمعيتي</h2>
+                        <p>تطبيق <strong>إدارة الجمعيات المالية</strong> الأكثر أمانًا وخصوصية. نظّم جمعيتك، تابع
+                            الأعضاء والمدفوعات، واحصل على تذكيرات تلقائية - كل ذلك بدون الحاجة لتسجيل الدخول أو مشاركة
+                            بياناتك.</p>
+                        <p style="margin-top: 15px; font-size: 0.95em; opacity: 0.9;">A <strong>financial savings circle
+                                management app</strong> with complete privacy. Organize your circle, track members and
+                            payments, get automatic reminders - all without login or data sharing.</p>
+
+                        <ul class="showcase-features">
+                            <li>👥 <strong>إدارة الأعضاء</strong> - تتبع جميع المشاركين والمبالغ</li>
+                            <li>💰 <strong>حساب تلقائي</strong> - احسب الدور الشهري بسهولة</li>
+                            <li>🔔 <strong>تذكيرات ذكية</strong> - إشعارات محلية لمواعيد الدفع</li>
+                            <li>🔒 <strong>خصوصية كاملة</strong> - لا تسجيل، لا إعلانات، تخزين محلي فقط</li>
+                            <li>🌙 <strong>الوضع الليلي</strong> - راحة للعينين في أي وقت</li>
+                        </ul>
+
+                        <a href="mycircle.html" class="btn-showcase" style="margin-top: 25px;">
+                            <span>اعرف المزيد عن جمعيتي - Learn More About MyCircle</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+
+                        <a href="https://apps.apple.com/iq/app/mycircle-%D8%AC%D9%85%D8%B9%D9%8A%D8%AA%D9%8A/id6756964732?l=ar"
+                            class="btn-showcase"
+                            style="margin-top: 25px; background: white; color: #1a1a2e; border: none;">
+                            <span data-i18n="btn_download">Download on App Store</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor" stroke="none">
+                                <path
+                                    d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.26 2.94-1.29.59 7.5-5.87 4.76-2.94 1.29z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews-section fade-in">
+            <div class="container">
+                <h2 data-i18n="reviews_title">What Our Users Say</h2>
+                <p class="section-subtitle">Real feedback from real users</p>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p data-i18n="review_1">"Riwaq helped me organize my scattered thoughts. A masterpiece!"</p>
+                        <span data-i18n="review_1_author">Ahmed S.</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p data-i18n="review_2">"The design is just stunning. It feels so premium."</p>
+                        <span data-i18n="review_2_author">Sarah J.</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p data-i18n="review_3">"Simple yet powerful. Exactly what I needed."</p>
+                        <span data-i18n="review_3_author">Mohammed K.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Section -->
+        <section class="home-trust-section">
+            <div class="container">
+                <h2 data-i18n="why_trust_us_title">Why Trust OWIDA?</h2>
+                <p data-i18n="why_trust_us_desc">We prioritize user privacy above all else. We are transparent about our
+                    data practices and committed to providing ad-free, secure experiences. Our team is dedicated to
+                    long-term support and continuous improvement based on your feedback.</p>
+
+                <div class="trust-badges">
+                    <div class="trust-badge-item">
+                        <span class="badge-icon">🔐</span>
+                        <span>No Data Collection</span>
+                    </div>
+                    <div class="trust-badge-item">
+                        <span class="badge-icon">🛡️</span>
+                        <span>Privacy First</span>
+                    </div>
+                    <div class="trust-badge-item">
+                        <span class="badge-icon">✅</span>
+                        <span>App Store Approved</span>
+                    </div>
+                    <div class="trust-badge-item">
+                        <span class="badge-icon">💯</span>
+                        <span>User Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Info Bar -->
+        <div class="contact-info-bar fade-in">
+            <div class="container">
+                <h2 data-i18n="contact_info_title" style="color: white; margin-bottom: 30px;">Get in Touch</h2>
+                <div class="contact-grid-inner">
+                    <div class="contact-item">
+                        <span data-i18n="contact_whatsapp_label">WhatsApp</span>
+                        <a href="https://wa.me/97451307353" target="_blank">+974 51307353</a>
+                    </div>
+                    <div class="contact-item">
+                        <span data-i18n="contact_email_label">Email</span>
+                        <a href="mailto:owidaapp@gmail.com">owidaapp@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_rights">© 2024 OWIDA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
